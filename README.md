@@ -2,8 +2,8 @@
 
 Lien PPE : http://enseignement.alexandre-mesle.com/PPE/parking/ 
 
-Ici nous allons effectuer la prioriser des tâches à exectuer
-Ceci est notre cahier des charges à tenir à a jour, chaque tache terminée doit être marqué à la fin avec <OK>
+Ici nous allons établir la prioriter des tâches à exectuer
+Ceci est notre cahier des charges à tenir à jour, chaque tache terminée doit être marqué à la fin avec <OK>
 
 3.1  Sécurité
 Protection des accès par mot de passe.
