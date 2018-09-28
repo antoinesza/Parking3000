@@ -36,12 +36,12 @@ Attribution manuelle des places.
 
 
 3.5  Pages web
-Mise aux normes HTML5 et CSS des pages WEB.
-Utilisation d’un design responsive.
+Mise aux normes HTML5 et CSS des pages WEB. OK
+Utilisation d’un design responsive. OK
 
 
 3.6  Documentation
-Liste des tâches à accomplir par ordre de priorité.
+Liste des tâches à accomplir par ordre de priorité. OK
 Documentation utilisateur, accessible depuis l’application.
 Documentation permettant de comprendre comment est construite l’application (shémas, impressions d’écran, MCD...).
 
