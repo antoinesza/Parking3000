@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 // Si l'utilisateur appuie sur le bouton pour se connecter
 if(isset($_POST['login']))
@@ -28,7 +29,6 @@ if(isset($_POST['login']))
 				// On formate les identifiants dans une clés pour l'authentification
 				$auth = $email . "/-auth-/" . md5($email) . sha1($password);  
 
-				
 				}
 				// On stock la clé dans une variable SESSION
 				$_SESSION['Authentification_Site_Streaming'] = $auth;
