@@ -40,9 +40,7 @@ $email = htmlspecialchars(addslashes(trim($_POST['email'])));
 							// On créer un variable $lien en fonction de l'ID de l'utilisateur
 							$lien = "data/profils/" . $sql_users_data['users_id'] . ".jpg";
 
-							// On lui assigne une image par défaut pour son profils
-							copy("data/profils/default_img.jpg", $lien);
-
+							
 							// On redirige l'utilisateur sur la page login.php
 							header('Location:login');
 							
