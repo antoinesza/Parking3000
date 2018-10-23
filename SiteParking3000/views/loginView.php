@@ -1,17 +1,24 @@
 <?php include "headerView.php"; ?>
 
-<form class="form-signin" method="post">
-            <h1 class="h3 mb-3 font-weight-normal">Connection</h1>
-            <label for="email" class="sr-only">Email</label>
-            <input type="text"  name='email' id="email" class="form-control" placeholder="Email" required autofocus>
-            <label for="mdp" class="sr-only">Password</label>
-            <input type="password" id="password" name='password' class="form-control" placeholder="Password" required>
-            <div class="checkbox mb-3">
-                <label>
-          <input type="checkbox" value="remember" name="remember"> Se souvenir de moi
-        </label>
-            </div>
-            <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">Connexion</button>
-        </form>
+    <hgroup>
+        <h1>Parking 3000</h1>
+        <h3>Connexion</h3>
+    </hgroup>
+    <link rel="stylesheet" href="../publics/css/styleLogin.css">
+    <form>
+        <div class="group">
+            <input type="text" name='email' id="email"><span class="highlight"></span><span class="bar"></span>
+            <label>Identifiant</label>
+        </div>
+        <div class="group">
+            <input type="email" id="password" name='password'><span class="highlight"></span><span class="bar"></span>
+            <label>Mot de passe</label>
+        </div>
+        <button type="button" class="button buttonBlue">Subscribe
+            <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+        </button>
+    </form>
+
+
 
 <?php include "footerView.php"; ?>
