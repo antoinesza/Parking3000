@@ -28,7 +28,7 @@ $email = htmlspecialchars(addslashes(trim($_POST['email'])));
 
 
 							// On insert dans la BDD une nouvelle ligne avec le mdp et l'email entrée par l'utilisateur                
-						    $sqlquery= "INSERT INTO users (email,password,date_inscription,date_naissance) VALUES('$email','$password',null)";
+						    $sqlquery= "INSERT INTO users (nom,password,email,,) VALUES('$nom','$password','$email')";
                            	$sql = $bdd->query($sqlquery);
 
 

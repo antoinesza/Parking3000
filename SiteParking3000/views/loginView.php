@@ -17,6 +17,9 @@
         <button type="button" class="button buttonBlue">Subscribe
             <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
         </button>
+        <button type="button" class="button buttonBlue">Subscribe
+            <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+        </button>
     </form>
 
 
