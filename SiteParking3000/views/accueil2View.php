@@ -795,7 +795,9 @@
     </script>
     <link rel="author" href="humans.txt">
     <link rel="canonical" href="index.html">
-
+    <link rel="alternate" href="DE/index.html" hreflang="de-DE">
+    <link rel="alternate" href="EN/index.html" hreflang="en-GB">
+    <link rel="alternate" href="ES/index.html" hreflang="es-ES">
     <link rel="alternate" href="index.html" hreflang="fr-FR">
     <link rel="alternate" href="NL/index.html" hreflang="nl-NL">
     <link rel="icon" sizes="16x16" href="https://static.parkingsdeparis.com/application/parkingsdeparis/meta/favicon.ico">
