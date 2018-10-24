@@ -1,5 +1,5 @@
 <?php
-     if(isset($_POST['submit']))//si formulaire validé
+     if(isset($_POST['submit']));//si formulaire validé
          
          function login_user($password, $email){
          

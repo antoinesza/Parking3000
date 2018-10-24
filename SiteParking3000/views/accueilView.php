@@ -1,5 +1,5 @@
 <?php
-
+$content = "accueil";
 ?>
 <?php
 require "headerView.php";
@@ -112,10 +112,9 @@ require "headerView.php";
                 <div class="col">
                     <ul>
                         <li><a href="reservation-moto-carte.html" class="btn btn-block-link">Parkings pour motos</a></li>
-                        <li><a href="reservation-utilitaire-carte.html" class="btn btn-block-link">Parkings pour utilitaires</a></li>
+                        <li><a href="reservation-utilitaire-carte.html" class="btn btn-block-link">Parkings pour voiture</a></li>
                         <li><a href="reservation-camion-carte.html" class="btn btn-block-link">Parkings pour camions</a></li>
-                        <li><a href="reservation-campingcar-carte.html" class="btn btn-block-link">Parkings pour camping-cars</a></li>
-                        <li><a href="reservation-autocar-carte.html" class="btn btn-block-link">Parkings pour autocars</a></li>
+
                     </ul>
                 </div>
             </div>

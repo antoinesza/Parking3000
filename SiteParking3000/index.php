@@ -2,13 +2,13 @@
 
 session_start();
 
-    try  {
-        $bdd = new PDO("mysql:host=localhost;dbname=parking3000;charset=uf8","root","");
-        }
-        catch(Exception $e)
-        {
-            die ("erreur de bdd non trouvée");
-        }
+  //  try  {
+    //    $bdd = new PDO("mysql:host=localhost;dbname=parking3000;charset=uf8","root","");
+     //   }
+     //   catch(Exception $e)
+     //   {
+      //      die ("erreur de bdd non trouvée cherche mieux");
+     //   }
 
 
 if(!isset($_GET['p']) || $_GET['p'] == "")
