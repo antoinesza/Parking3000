@@ -2,7 +2,7 @@
 
     <hgroup>
         <h1>Parking 3000</h1>
-        <h3>Connexion</h3>
+        <h3>Acces a votre compte</h3>
     </hgroup>
     <link rel="stylesheet" href="../publics/css/styleLogin.css">
     <form>
@@ -14,10 +14,10 @@
             <input type="email" id="password" name='password'><span class="highlight"></span><span class="bar"></span>
             <label>Mot de passe</label>
         </div>
-        <button type="button" class="button buttonBlue">Subscribe
+        <button type="button" class="button buttonBlue">Connexion
             <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
         </button>
-        <button type="button" class="button buttonBlue">Subscribe
+        <button type="button" class="button buttonBlue">Inscription
             <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
         </button>
     </form>
