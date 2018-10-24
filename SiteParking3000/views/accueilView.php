@@ -1,6 +1,5 @@
 <?php
 
-
 ?>
 <?php
 require "headerView.php";
@@ -15,7 +14,7 @@ require "headerView.php";
 
 <head>
     <meta charset="UTF-8">
-    <title>Réservations de places de parking en ligne | Parkingsdeparis</title>
+    <title>Réservations Parking 3000</title>
     <base>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="robots" content="index,follow">
@@ -38,7 +37,7 @@ require "headerView.php";
 
 
 
-    <script type="application/ld+json"> { "@context": "http://schema.org", "@type": "WebSite", "url": "https://www.parkingsdeparis.com/", "image": "https://static.parkingsdeparis.com/assets/img/logotipo-parkingsdeparis.svg", "potentialAction": { "@type": "SearchAction", "target": "https://www.parkingsdeparis.com/search?q={search_term_string}", "query-input": "required name=search_term_string" } } </script>
+
     <link rel="stylesheet" href="../publics/css/styleAccueil.css">
 
 <body id="mainframe" class="home">
@@ -72,9 +71,7 @@ require "headerView.php";
                 <app-home enabled="true" data-queryParams="W10=" data-parking="bnVsbA==" data-terminals="bnVsbA==">
                     <div class="content-placeholder">
                         <div class="d-flex justify-content-center">
-                            <div class="loading-search bar col-5 col-lg-12">
-                                <div class="second-divider d-none d-lg-block"></div>
-                            </div>
+
                         </div>
                     </div>
                 </app-home>

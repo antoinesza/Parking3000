@@ -5,8 +5,8 @@ ob_start();//permet de suspendre l'affichage
 
         if(!isset($_GET['p']))
         {
+
             $page = "accueil;
-            
             
         }
 
