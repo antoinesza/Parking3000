@@ -13,6 +13,9 @@
             <input type="password" name="password" placeholder="mot de passe..." required/>
             <br/>
             
+            <input type="password" name="re-password" placeholder="Password..." required>
+            
+            
             <input type="submit" name="submit" />
             <br/> 
         </p>

@@ -10,6 +10,7 @@
          <a href="views/loginView.php">Login</a> 
          <a href="views/insView.php">Inscription</a> 
          <a href="views/adminView.php">Admin</a>
+         <a href="views/fileView.php">Aller dans la fille</a>
     </header>
       
         <?php 
