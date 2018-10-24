@@ -48,7 +48,7 @@ if(!isset($_GET['Nom'])){
 <?php
 include "page/header.php";
 if($sql_c == 1){
-    if(!isset($_GET['Pseudo'])){
+    if(!isset($_GET['nom'])){
 
         ?>
 
@@ -75,7 +75,7 @@ if($sql_c == 1){
 
 
         </div>
-        <?php if(!isset($_GET['Pseudo'])){ ?>
+        <?php if(!isset($_GET['nom'])){ ?>
             <a href="Modification" class="modifie">Modifier mon profil</a>
         <?php } ?>
 
