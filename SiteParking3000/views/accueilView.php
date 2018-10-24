@@ -1,6 +1,6 @@
 <?php
-      
-    
+
+
 ?>
 <?php
 require "headerView.php";
@@ -36,41 +36,7 @@ require "headerView.php";
     <meta http-equiv="cleartype" content="on">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link rel="author" href="humans.txt">
-    <link rel="canonical" href="index.html">
-    <link rel="alternate" href="DE/index.html" hreflang="de-DE">
-    <link rel="alternate" href="EN/index.html" hreflang="en-GB">
-    <link rel="alternate" href="ES/index.html" hreflang="es-ES">
-    <link rel="alternate" href="index.html" hreflang="fr-FR">
-    <link rel="alternate" href="NL/index.html" hreflang="nl-NL">
-    <link rel="icon" sizes="16x16" href="https://static.parkingsdeparis.com/application/parkingsdeparis/meta/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../img/static.parkingsdeparis.com/application/parkingsdeparis/meta/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="../img/static.parkingsdeparis.com/application/parkingsdeparis/meta/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/static.parkingsdeparis.com/application/parkingsdeparis/meta/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="../img/static.parkingsdeparis.com/application/parkingsdeparis/meta/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/static.parkingsdeparis.com/application/parkingsdeparis/meta/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/static.parkingsdeparis.com/application/parkingsdeparis/meta/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../img/static.parkingsdeparis.com/application/parkingsdeparis/meta/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../img/static.parkingsdeparis.com/application/parkingsdeparis/meta/apple-touch-icon-152x152.png">
-    <link rel="icon" type="image/png" href="../img/static.parkingsdeparis.com/application/parkingsdeparis/meta/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="../img/static.parkingsdeparis.com/application/parkingsdeparis/meta/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="../img/static.parkingsdeparis.com/application/parkingsdeparis/meta/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="../img/static.parkingsdeparis.com/application/parkingsdeparis/meta/favicon-128x128.png" sizes="128x128">
-    <link rel="icon" type="image/png" href="../img/static.parkingsdeparis.com/application/parkingsdeparis/meta/favicon-196x196.png" sizes="196x196">
-    <link rel="preload" href="assets/fonts/MuseoSans-300.ttf" as="font">
-    <link rel="preload" href="assets/fonts/MuseoSans-300.woff" as="font">
-    <link rel="preload" href="assets/fonts/MuseoSans-500.ttf" as="font">
-    <link rel="preload" href="assets/fonts/MuseoSans-500.woff" as="font">
-    <link rel="preload" href="assets/fonts/MuseoSans-700.ttf" as="font">
-    <link rel="preload" href="assets/fonts/MuseoSans-700.woff" as="font">
-    <link rel="preload" href="assets/fonts/MuseoSans-900.ttf" as="font">
-    <link rel="preload" href="assets/fonts/MuseoSans-900.woff" as="font">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="https://static.parkingsdeparis.com/application/parkingsdeparis/meta/mstile-144x144.png">
-    <meta name="msapplication-square70x70logo" content="https://static.parkingsdeparis.com/application/parkingsdeparis/meta/mstile-70x70.png">
-    <meta name="msapplication-square150x150logo" content="https://static.parkingsdeparis.com/application/parkingsdeparis/meta/mstile-150x150.png">
-    <meta name="msapplication-wide310x150logo" content="https://static.parkingsdeparis.com/application/parkingsdeparis/meta/mstile-310x150.png">
-    <meta name="msapplication-square310x310logo" content="https://static.parkingsdeparis.com/application/parkingsdeparis/meta/mstile-310x310.png">
+
 
     <script type="application/ld+json"> { "@context": "http://schema.org", "@type": "WebSite", "url": "https://www.parkingsdeparis.com/", "image": "https://static.parkingsdeparis.com/assets/img/logotipo-parkingsdeparis.svg", "potentialAction": { "@type": "SearchAction", "target": "https://www.parkingsdeparis.com/search?q={search_term_string}", "query-input": "required name=search_term_string" } } </script>
     <link rel="stylesheet" href="../publics/css/styleAccueil.css">
@@ -124,7 +90,7 @@ require "headerView.php";
                 <div class="paperless animated bounceInDown delay-3s"> Votre réservation est électronique !
                     <br>Pas besoin d&#039;imprimer quoi que ce soit </div> <img src="../static.parkingsdeparis.com/assets/img/animation/parkingsdeparis/static-city-green.png" class="img-fluid" alt=""> </div>
         </div>
-        <div class="col-12 px-2"> <span class="text">Plus de <strong>7.499.993</strong> conducteurs nous font déjà confiance.</span> </div>
+        <div class="col-12 px-2"> <span class="text">Plus de <strong>500.000</strong> conducteurs nous font déjà confiance.</span> </div>
     </div>
 </div>
 <section id="booking-banner">

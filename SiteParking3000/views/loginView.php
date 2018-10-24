@@ -8,7 +8,7 @@
     <form>
         <div class="group">
             <input type="text" name='email' id="email"><span class="highlight"></span><span class="bar"></span>
-            <label>Identifiant</label>
+            <label>Email</label>
         </div>
         <div class="group">
             <input type="email" id="password" name='password'><span class="highlight"></span><span class="bar"></span>
@@ -17,6 +17,7 @@
         <button type="button" class="button buttonBlue">Connexion
             <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
         </button>
+        <h4>Vous n'avez pas encore de compte ? <br> s'inscrire gratuitement ici</h4>
         <button type="button" class="button buttonBlue">Inscription
             <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
         </button>
