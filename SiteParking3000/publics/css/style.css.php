@@ -23,7 +23,7 @@
           <a href="views/loginView.php">Login</a> 
           <a href="views/insView.php">Inscription</a> 
           <a href="views/adminView.php">Admin</a> <br/>
-          copyright Parking 3000
+          copyright Parking 30005474
       </footer>
     
     </body>

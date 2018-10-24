@@ -6,7 +6,7 @@ include "page/config.php";
 $login = login_Email();
 
 // Requete SQL pour recuperer les données d'un utilisateur avec l'adresse email renvoyer par la fct login_Email()
-$sql = "SELECT * FROM users WHERE users_email = '" . $login . "'";
+$sql = "SELECT * FROM users WHERE email = '" . $login . "'";
 $sql = $bdd->query($sql);
 $sql = $sql->fetch(PDO::FETCH_ASSOC);
 
