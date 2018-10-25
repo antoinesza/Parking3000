@@ -95,7 +95,7 @@ require "headerView.php";
             <div class="col-12 col-lg-6 text-center text-sm-left">
                 <p class="h1"> <span class="d-block">
                         Réservez votre place de Parking sur Parking 3000 et économisez jusqu&#039;à 70%
-                    </span> <a href="#" onclick="document.getElementsByTagName('body')[0].scrollIntoView({behavior: 'smooth'});" class="btn btn-primary text-uppercase">Réserver</a> </p>
+                    </span> <a href="../controllers/reservationController.class.php" onclick="document.getElementsByTagName('body')[0].scrollIntoView({behavior: 'smooth'});" class="btn btn-primary text-uppercase">Réserver</a> </p>
             </div>
             <div class="col-12 col-lg-6"> <img src="../static.parclick.com/assets/img/banners/booking-banner.png" width="589" height="345" class="img-fluid" alt=""> </div>
         </div>

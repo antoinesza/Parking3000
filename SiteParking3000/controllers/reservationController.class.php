@@ -10,7 +10,7 @@ use Core\Controller\Controller;
 use Core\Form\Form;
 use PDO;
 
-class ReservationController extends Controller{
+class ReservationController {
 
     protected $reservationDuration;
 
