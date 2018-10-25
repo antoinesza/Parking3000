@@ -14,7 +14,7 @@ require "headerView.php";
 
 <head>
     <meta charset="UTF-8">
-    <title>Réservations Parking 3000</title>
+    <title>Réservations Voiture</title>
     <base>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="robots" content="index,follow">
