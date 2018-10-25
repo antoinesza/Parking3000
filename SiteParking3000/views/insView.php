@@ -1,24 +1,32 @@
+
 <?php include "headerView.php"; ?>
 
-<h1>Inscription</h1>
-   
-    <form action="#" method="post" enctype="multipart/form-data">
-        <p>
-            <input type="text" name="nom" placeholder="Nom..." required/>
-            <br/>
-            
-            <input type="text" name="email" placeholder="Email..." required/>
-            <br/>
-    
-            <input type="password" name="password" placeholder="mot de passe..." required/>
-            <br/>
-            
-            <input type="password" name="re-password" placeholder="Password..." required>
-            
-            
-            <input type="submit" name="submit" />
-            <br/> 
-        </p>
-    </form>
+<hgroup>
+    <h1>Parking 3000</h1>
+    <h3>Acces a votre compte</h3>
+</hgroup>
+<link rel="stylesheet" href="../publics/css/styleLogin.css">
+<form>
+    <div class="group">
+        <input type="text" name='Nom' id="nom"><span class="highlight"></span><span class="bar"></span>
+        <label>Nom</label>
+    </div>
+    <div class="group">
+        <input type="text" name='email' id="email"><span class="highlight"></span><span class="bar"></span>
+        <label>Email</label>
+    </div>
+    <div class="group">
+        <input type="email" id="password" name='password'><span class="highlight"></span><span class="bar"></span>
+        <label>Mot de passe</label>
+    </div>
+    <button type="button" class="button buttonBlue">Inscription
+        <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+    </button>
+    <h4>vous avez déjà un compte ? <br> connectez-vous ici</h4>
+    <button type="button" class="button buttonBlue">Connexion
+        <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+    </button>
+</form>
+
 
 <?php include "footerView.php"; ?>
