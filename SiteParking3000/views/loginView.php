@@ -19,9 +19,9 @@
             <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
         </button>
         <h4>Vous n'avez pas encore de compte ? <br> s'inscrire gratuitement ici</h4>
-        <button type="button" class="button buttonBlue">Inscription
+        <button type="button" class="button buttonBlue"<a href="insView.php">Inscription
             <div class="ripples buttonRipples"><span class="ripplesCircle"></span>
-            <a href="insView.php"></a> </div>
+             </div>
         </button>
     </form>
 
