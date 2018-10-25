@@ -20,7 +20,8 @@
         </button>
         <h4>Vous n'avez pas encore de compte ? <br> s'inscrire gratuitement ici</h4>
         <button type="button" class="button buttonBlue">Inscription
-            <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+            <div class="ripples buttonRipples"><span class="ripplesCircle"></span>
+            <a href="insView.php"></a> </div>
         </button>
     </form>
 
