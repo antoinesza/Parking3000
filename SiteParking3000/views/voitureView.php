@@ -1,5 +1,5 @@
 <?php
-$content = "voiture";
+$content = "accueil";
 ?>
 <?php
 require "headerView.php";
@@ -111,10 +111,11 @@ require "headerView.php";
                 <div class="w-100"></div>
                 <div class="col">
                     <ul>
-                        <li><a href="reservation-moto-carte.html" class="btn btn-block-link">Parkings pour motos</a></li>
-                        <li><a href="voitureView.php" class="btn btn-block-link">Parkings pour voiture</a></li>
-                        <li><a href="reservation-camion-carte.html" class="btn btn-block-link">Parkings pour camions</a></li>
-
+                        <li><a href="#" class="btn btn-block-link">Place 1</a></li>
+                        <li><a href="#" class="btn btn-block-link">Place 2</a></li>
+                        <li><a href="#" class="btn btn-block-link">Place 3</a></li>
+                        <li><a href="#" class="btn btn-block-link">Place 4</a></li>
+                        <li><a href="#" class="btn btn-block-link">Place 5</a></li>
                     </ul>
                 </div>
             </div>
@@ -190,6 +191,6 @@ require "footerView.php";
 
 <?php
 
-        
+
 ?>
 
