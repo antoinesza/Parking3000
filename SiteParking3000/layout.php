@@ -6,11 +6,11 @@
 
   <body>
       <header>
-         <a href="views/accueil2View.php">Accueil</a>
+         <a href="views/accueilView.php">Accueil</a>
          <a href="views/loginView.php">Login</a> 
          <a href="views/insView.php">Inscription</a> 
          <a href="views/adminView.php">Admin</a>
-         <a href="views/fileView.php">Aller dans la fille</a>
+         
     </header>
       
         <?php 
@@ -20,7 +20,7 @@
         ?>
       
       <footer>
-          <a href="views/accueil2View.php">Accueil</a>
+          <a href="views/accueilView.php">Accueil</a>
           <a href="views/loginView.php">Login</a> 
           <a href="views/insView.php">Inscription</a> 
           <a href="views/adminView.php">Admin</a> <br/>

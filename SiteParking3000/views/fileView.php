@@ -1,5 +1,5 @@
 
  <?php
-
-    //$fileattente->getfile(0);
+    
+    $fileattente->getfile(0);
 ?>
