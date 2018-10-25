@@ -41,7 +41,8 @@
                                     $sql_users_data = $sql_users->fetch(PDO::FETCH_ASSOC);
 
                                     // On créer un variable $lien en fonction de l'ID de l'utilisateur
-                                    $lien = "" ; $sql_users_data['id_u'] ;
+                                    $lien = "" ; 
+                                    $sql_users_data['id_u'] ;
                                     
                                     return $lien;
 
