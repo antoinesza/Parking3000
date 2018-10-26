@@ -1,4 +1,5 @@
 <?php
+require 'models/reservationModel.class';
 
 namespace App\Controller;
 
@@ -185,3 +186,5 @@ class ReservationController {
 
 
 }
+
+require 'views/accueilView.class';
