@@ -16,28 +16,6 @@ require "headerView.php";
     <meta charset="UTF-8">
     <title>Réservations Parking 3000</title>
     <base>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="robots" content="index,follow">
-    <meta name="title" content="Réservations de places de parking en ligne | Parkingsdeparis">
-    <meta name="description" content="Réservez votre parking en ligne, votre place est garantie, et économisez jusqu&#039;à 70% du prix final. Garez-vous avec Parkingsdeparis !">
-    <meta name="HandheldFriendly" content="true">
-    <meta name="MobileOptimized" content="320">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Parkingsdeparis">
-    <meta name="theme-color" content="#e76500">
-    <meta property="og:title" content="Réservations de places de parking en ligne | Parkingsdeparis">
-    <meta property="og:description" content="Réservez votre parking en ligne, votre place est garantie, et économisez jusqu&#039;à 70% du prix final. Garez-vous avec Parkingsdeparis !">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="../static.parkingsdeparis.com/application/parkingsdeparis/meta/logotipo.png">
-    <meta property="og:site_name" content="Parkingsdeparis">
-    <meta http-equiv="cleartype" content="on">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-
-
-
     <link rel="stylesheet" href="../publics/css/styleAccueil.css">
 
 <body id="mainframe" class="home">
@@ -181,11 +159,3 @@ require "headerView.php";
 
 require "footerView.php";
 ?>
-
-
-
-<?php
-
-        
-?>
-

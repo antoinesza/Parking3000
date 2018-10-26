@@ -14,12 +14,12 @@ if(isset($_POST['submit']))
     $email = $_POST['email'];
     $mdp = sha1($_POST['mdp']);
 
-    $requete = $bdd->query("INSERT INTO user(nom,password,email) VALUES('".$email."','".$password."',1)");
+    $requete = $bdd->query("INSERT INTO user(password,email) VALUES('".$email."','".$password."'");
     $_SESSION['connecte'] = true;
     $_SESSION['id'] = $bdd->lastInsertId();
     $_SESSION['lvl'] = 1;
     mail($email,"Inscription","Bienvenue");
-    header("Location:index.php");
+    header("Location:accueilView.php");
 }
 ?>
 <form action="#" method="post">
