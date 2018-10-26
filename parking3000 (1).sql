@@ -31,9 +31,11 @@ SET time_zone = "+00:00";
 DROP TABLE IF EXISTS `places`;
 CREATE TABLE IF NOT EXISTS `places` (
   `id_p` int(255) NOT NULL AUTO_INCREMENT,
+  `id_u` int(11) NOT NULL,
   `nom` varchar(255) NOT NULL,
   `numero` varchar(255) NOT NULL,
-  PRIMARY KEY (`id_p`)
+  PRIMARY KEY (`id_p`),
+  KEY `foreign_key_user` (`id_u`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -87,6 +89,13 @@ INSERT INTO `users` (`id_u`, `nom`, `password`, `email`, `lvl`, `statutfile`) VA
 --
 ALTER TABLE `reservation`
   ADD CONSTRAINT `foreign_key_place` FOREIGN KEY (`id_p`) REFERENCES `places` (`id_p`) ON DELETE CASCADE ON UPDATE NO ACTION,
+  ADD CONSTRAINT `foreign_key_user` FOREIGN KEY (`id_u`) REFERENCES `users` (`id_u`) ON DELETE CASCADE ON UPDATE NO ACTION;
+COMMIT;
+
+--
+-- Contraintes pour la table `place`
+--
+ALTER TABLE `places`
   ADD CONSTRAINT `foreign_key_user` FOREIGN KEY (`id_u`) REFERENCES `users` (`id_u`) ON DELETE CASCADE ON UPDATE NO ACTION;
 COMMIT;
 

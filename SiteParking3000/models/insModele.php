@@ -3,7 +3,7 @@
     function add_user()
     {
         require 'config.php';
-		
+		global $bdd;
                 // Si l'utilisateur appuie sur le bouton pour s'inscrire
         if(isset($_POST['inscripton'])){
 

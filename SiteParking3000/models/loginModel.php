@@ -2,8 +2,7 @@
      if(isset($_POST['submit']));//si formulaire validé
          
          function login_user(){
-         
-            session_start();
+            global $bdd;
 
             // Si l'utilisateur appuie sur le bouton pour se connecter
             if(isset($_POST['login']))

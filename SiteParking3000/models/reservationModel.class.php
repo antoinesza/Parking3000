@@ -14,7 +14,8 @@ class ReservationModel extends Model {
      * renvoie les places disponibles
      */
     public function getAllAvailablePlaces(){
-        $results = $this->db->query('SELECT id FROM places WHERE id NOT IN (SELECT id_p FROM reservation WHERE id_p IS NOT NULL AND date_fin > NOW() )');
+        global $bdd;
+        $results = $this->bdd->query('SELECT id FROM places WHERE id NOT IN (SELECT id_p FROM reservation WHERE id_p IS NOT NULL AND date_fin > NOW() )');
         return $results;
     }
 
@@ -22,7 +23,8 @@ class ReservationModel extends Model {
      * renvoie un places disponibles
      */
     public function getOneAvailablePlace(){
-        $results = $this->db->query('SELECT id_u FROM places WHERE id_u NOT IN (SELECT id_p FROM reservation WHERE id_p IS NOT NULL AND date_fin > NOW() )', true);
+        global $bdd;
+        $results = $this->bdd->query('SELECT id_u FROM places WHERE id_u NOT IN (SELECT id_p FROM reservation WHERE id_p IS NOT NULL AND date_fin > NOW() )', true);
         return $results;
     }
 
@@ -30,6 +32,7 @@ class ReservationModel extends Model {
      * renvoie l'historique des mes places
      */
     public function getMyHistory($userId){
+        
         $results = $this->all("WHERE id_u = $userId AND date_fin < now() order by date_fin");
         return $results;
     }
