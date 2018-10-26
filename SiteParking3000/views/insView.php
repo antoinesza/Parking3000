@@ -6,15 +6,22 @@
     <h3>Acces a votre compte</h3>
 </hgroup>
 <link rel="stylesheet" href="../publics/css/styleLogin.css">
+<?php
+try {
+    $bdd = new PDO("mysql:host=localhost;dbname=parking3000;charset=utf8","root","");
 
-
+} catch (PDOException $e) {
+    print "Erreur !: " . $e->getMessage() . "<br/>";
+    die();
+}
+?>
 <?php
 if(isset($_POST['submit']))
 {
     $email = $_POST['email'];
     $mdp = sha1($_POST['mdp']);
 
-    $requete = $bdd->query("INSERT INTO user(password,email) VALUES('".$email."','".$password."'");
+    $requete = $bdd->query("INSERT INTO user(email,password,lvl) VALUES('".$email."','".$password."',1)");
     $_SESSION['connecte'] = true;
     $_SESSION['id'] = $bdd->lastInsertId();
     $_SESSION['lvl'] = 1;
@@ -22,15 +29,14 @@ if(isset($_POST['submit']))
     header("Location:accueilView.php");
 }
 ?>
-<form action="#" method="post">
-    Email<input type="email" name="email"/>
-    mdp<input type="password" name="mdp"/>
-    <input type="submit" name="submit"/>
+<form action="#" method="post"class="centrale">
+    Nom<input type="Nom" name="Nom"/></br>
+    Prenom<input type="Prenom" name="Prenom"/></br>
+    Email<input type="email" name="email"/></br>
+    mdp<input type="password" name="password"/></br>
+    <input type="submit" name="submit"/></br>
 </form>
-<h4>vous avez déjà un compte ? <br> connectez-vous ici</h4>
-<button type="button" class="button buttonBlue">Connexion
-    <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
-</button>
-</form>
+
+
 
 <?php include "footerView.php"; ?>

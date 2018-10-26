@@ -1,5 +1,5 @@
 
-    <header>
+<header>
          <a href="accueilView.php">Accueil</a>
         <?php if(isset($_SESSION['connecte']))
         {

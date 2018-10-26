@@ -7,23 +7,46 @@
         <h3>Acces a votre compte</h3>
     </hgroup>
     <link rel="stylesheet" href="../publics/css/styleLogin.css">
-    <form>
-        <div class="group">
-            <input type="text" name='email' id="email"><span class="highlight"></span><span class="bar"></span>
-            <label>Email</label>
-        </div>
-        <div class="group">
-            <input type="email" id="password" name='password'><span class="highlight"></span><span class="bar"></span>
-            <label>Mot de passe</label>
-        </div>
-        <button type="button" class="button buttonBlue">Connexion
-            <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
-        </button>
-        <h4>Vous n'avez pas encore de compte ? <br> s'inscrire gratuitement ici</h4>
-        <button type="button" class="button buttonBlue"<a href="insView.php">Inscription
-            <div class="ripples buttonRipples"><span class="ripplesCircle"></span>
-             </div>
-        </button>
+<?php
+try
+{
+    $bdd = new
+    PDO("mysql:host=localhost;dbname=parking3000;charset=utf8","root","");
+}
+catch (Exception $e)
+{
+    die("erreur de connection");
+}
+
+
+if(isset($_POST['submit']))
+{$_SESSION['connecte'] = true;
+    $email = $_POST['email'];
+    $password = sha1($_POST['password']);
+
+    $requete = $bdd->query("SELECT * FROM user 
+								WHERE email = '".$email."' 
+								AND password = '".$password."'");
+
+    if($reponse = $requete->fetch())
+    {
+
+        $_SESSION['id'] = $reponse['id_u'];
+        header("Location:index2.php");
+    }
+    else
+    {
+        echo "mauvais identifiant";
+    }
+}
+?>
+
+    <form class="identification" action="#" method="post">
+        <input placeholder="Email" type="email" name="email">
+        <input placeholder="Mot de passe" type="password" name="password">
+        <input class="submit" name="submit" type="submit" value="Valider">
+    </form>
+
     </form>
 
 
