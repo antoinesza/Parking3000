@@ -26,7 +26,7 @@
 
 
 							// On insert dans la BDD une nouvelle ligne avec le mdp et l'email entrée par l'utilisateur                
-						    $sqlquery= "INSERT INTO users (nom,password,email,,) VALUES('$nom','$password','$email')";
+						    $sqlquery= "INSERT INTO users (nom,password,email) VALUES('$nom','$password','$email')";
                            	$sql = $bdd->query($sqlquery);
 
 
@@ -36,7 +36,7 @@
 							$sql_users_data = $sql_users->fetch(PDO::FETCH_ASSOC);
 
 							// On créer un variable $lien en fonction de l'ID de l'utilisateur
-							$lien = "" . $sql_users_data['id_u'] ;
+                            $lien = "" . $sql_users_data['id_u'] ;
 
 							
 							// On redirige l'utilisateur sur la page login.php

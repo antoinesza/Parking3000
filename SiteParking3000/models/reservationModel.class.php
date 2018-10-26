@@ -7,7 +7,7 @@ use \Core\Model\Model;
 class ReservationModel extends Model {
 
     protected $tableName = 'reservation';
-    protected $tableInputs = ['id', 'id_u', 'id_p', 'date_deb', 'date_fin'];
+    protected $tableInputs = ['id_u', 'id_p', 'date_deb', 'date_fin'];
 
 
     /*
@@ -22,7 +22,7 @@ class ReservationModel extends Model {
      * renvoie un places disponibles
      */
     public function getOneAvailablePlace(){
-        $results = $this->db->query('SELECT id FROM places WHERE id NOT IN (SELECT id_p FROM reservation WHERE id_p IS NOT NULL AND date_fin > NOW() )', true);
+        $results = $this->db->query('SELECT id_u FROM places WHERE id_u NOT IN (SELECT id_p FROM reservation WHERE id_p IS NOT NULL AND date_fin > NOW() )', true);
         return $results;
     }
 
@@ -54,7 +54,7 @@ class ReservationModel extends Model {
      * renvoie ma position dans la file d'attente
      */
     public function nbUserBeforeMeOnList($id){
-        $results = $this->count('id_p = 0 AND id < ' . $id) + 1;
+        $results = $this->count('id_p = 0 AND id_u < ' . $id) + 1;
         return $results;
     }
 

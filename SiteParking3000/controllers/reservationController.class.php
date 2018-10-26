@@ -1,4 +1,5 @@
 <?php
+require 'models/reservationModel.class';
 
 namespace App\Controller;
 
@@ -10,7 +11,7 @@ use Core\Controller\Controller;
 use Core\Form\Form;
 use PDO;
 
-class ReservationController extends Controller{
+class ReservationController {
 
     protected $reservationDuration;
 
@@ -185,3 +186,5 @@ class ReservationController extends Controller{
 
 
 }
+
+require 'views/accueilView.class';
