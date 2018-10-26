@@ -32,7 +32,7 @@ if(isset($_POST['submit']))
     {
 
         $_SESSION['id'] = $reponse['id_u'];
-        header("Location:index2.php");
+        header("Location:accueilView.php");
     }
     else
     {
